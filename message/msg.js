@@ -222,10 +222,10 @@ module.exports = async(conn, msg, m, setting, store, welcome) => {
 		}
 		
 		const buttonsDefault = [
-		    { urlButton: { displayText: `Source Code`, url : `${setting.youtubeOwner}` } },
-			{ callButton: { displayText: `Contact Me`, phoneNumber: `${setting.ownerNumber}` } },
-			{ quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } }
+		    { urlButton: { displayText: `𝒈𝒓𝒐𝒖𝒑 𝒔𝒖𝒑𝒑𝒐𝒓𝒕🤖`, url : `${setting.youtubeOwner}` } },
+			{ callButton: { displayText: `𝒄𝒐𝒏𝒕𝒂𝒄𝒕 𝒎𝒆🗿`, phoneNumber: `${setting.ownerNumber}` } },
+			{ quickReplyButton: { displayText: `🧑 𝑶𝒘𝒏𝒆𝒓`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `💰 𝒅𝒐𝒏𝒂𝒕𝒆 𝒑𝒖𝒍𝒔𝒂 𝒂𝒋𝒂`, id: `${prefix}donate` } }
 		]
         
 		const isImage = (type == 'imageMessage')
