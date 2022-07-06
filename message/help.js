@@ -33,7 +33,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  Limit Harian : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
  Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
  Balance : $${toCommas(getBalance(sender, balance))}
-
+© Created by *RielOfc*
  *MAIN MENU*
  > ${prefix}menu
  > ${prefix}owner
@@ -42,12 +42,12 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  > ${prefix}runtime
  > ${prefix}cekprem
  > ${prefix}listprem
-
+© Created by *RielOfc*
  *CONVERTER/TOOLS*
  > ${prefix}sticker
  > ${prefix}toimg
  > ${prefix}tovid
-
+© Created by *RielOfc*
  *DOWNLOADER*
  > ${prefix}play
  > ${prefix}tiktok
@@ -57,29 +57,29 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  > ${prefix}getmusic
  > ${prefix}instagram
  > ${prefix}facebook
-  
+© Created by *RielOfc*
  *RANDOM MENU*
  > ${prefix}quote
  > ${prefix}cecan
  > ${prefix}cogan
-  
+© Created by *RielOfc*
  *SEARCH MENU*
  > ${prefix}lirik
  > ${prefix}grupwa
  > ${prefix}ytsearch
-  
+© Created by *RielOfc*  
  *GAME MENU*
  > ${prefix}tictactoe
  > ${prefix}delttc
  > ${prefix}tebakgambar
-  
+© Created by *RielOfc*  
  *PAYMENT & BANK*
  > ${prefix}buylimit
  > ${prefix}buyglimit
  > ${prefix}transfer
  > ${prefix}limit
  > ${prefix}balance
-  
+© Created by *RielOfc*  
  *GROUP MENU*
  > ${prefix}linkgrup
  > ${prefix}setppgrup
@@ -88,7 +88,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
  > ${prefix}group
  > ${prefix}revoke
  > ${prefix}hidetag
-  
+© Created by *RielOfc*  
  *OWNER MENU*
  > evalcode
  x evalcode-2
